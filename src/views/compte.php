@@ -11,6 +11,7 @@ if (isset($_SESSION["userLogedIn"]) and $_SESSION["userLogedIn"] ){
 	<button type="button" onclick="location.href='index.php?page=topBiere'">Top des Bières</button>
 	<button type="button" onclick="location.href='index.php?page=beerpong'">BeerPong</button>
 	<button type="button" onclick="location.href='index.php?page=avislist'">Spots</button>
+	<button type="button" onclick="location.href='index.php?page=jdlv'">Jeu de la vie</button>
 	<button type="button" onclick="location.href='https://www.youtube.com/watch?v=cBCVu0liXNI&feature=youtu.be'">Meme Ubisoft</button>
 
 	<h3>Déconnexion</h3>
