@@ -1,0 +1,18 @@
+main {
+	width: 690px;
+	height: 690px;
+}
+
+main table tr {
+	height: 30px;
+}
+main table td {
+	width: 30px;
+	height: 30px;
+}
+.alive {
+	background-color: black;
+}
+.dead {
+	background-color: white;
+}

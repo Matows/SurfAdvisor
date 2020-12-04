@@ -15,6 +15,7 @@ $_PAGE_LIST = [
     'allBiere' => "Toute les bières",
     'beerpong' => 'Remake beer pong',
     'spots' => 'Liste des spotes par ville',
+    'jdlv' => 'Jeux de la vie',
 ];
 
 if (!empty($_GET) && isset($_GET['page'])) {
@@ -25,8 +26,10 @@ if (!empty($_GET) && isset($_GET['page'])) {
 
 $_PAGE_NAME = $_PAGE_LIST[$_PAGE];
 
-if ($_PAGE != 'beerpong') {
-    include(__DIR__ . '/views/base.php');
-} else {
+if ($_PAGE == 'beerpong' ) {
     include(__DIR__ . '/views/beerpong.html');
+} else if ($_PAGE == 'jdlv') {
+    include(__DIR__ . '/views/jdlv.html');
+} else {
+    include(__DIR__ . '/views/base.php');
 }
