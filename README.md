@@ -101,8 +101,9 @@
   'password' => 'motdepasse'
   ];
   ```
-  Vous devez ajouter ces fichiers pour vous connecter correctement a la base de donnée, que nous allons vous fournir, et gérer la configuration de la vérification par mail.
-  Vous avez aussi sur la racine de ce projet un fichier ```structure.sql ``` qui vous permettera d'avoir la bonne base de donnée.
-  Vous avez aussi un fichier de structure rempli : ```structure_remplie.sql```
-  Le hash que nous avons utilisé en production à été remplacer dans ce dépot par une suite de 'x' (src/actions/login.php et src/functions/functionLogin.php)
+  
+  - Vous devez ajouter ces fichiers pour vous connecter correctement a la base de donnée, que nous allons vous fournir, et gérer la configuration de la vérification par mail.
+  - Vous avez aussi sur la racine de ce projet un fichier ```structure.sql ``` qui vous permettera d'avoir la bonne base de donnée.
+  - Vous avez aussi un fichier de structure rempli : ```structure_remplie.sql```.
+  - Le hash que nous avons utilisé en production à été remplacer dans ce dépot par une suite de 'x' (src/actions/login.php et src/functions/functionLogin.php)
 
