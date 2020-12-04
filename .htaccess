@@ -1,0 +1,4 @@
+Options -Indexes +SymLinksIfOwnerMatch
+RewriteEngine On
+
+RewriteRule ^composer - [L,R=404]

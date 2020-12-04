@@ -1,0 +1,4 @@
+<?php
+afficheFormBieres();
+affiche(getBiere());
+?>
