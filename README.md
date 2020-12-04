@@ -79,7 +79,7 @@
       
     5.Frankencode : créer la vie avec du code !
     En hommage à John H. Conway nous avons choisi de réaliser un Jeu de la Vie sur notre application.
-    Vous pourrez retrouvez cette fonctionnalité au moment de votre inscription au moment de la vérification par mail.
+    Vous pourrez retrouvez cette fonctionnalité sur la page compte.
       
       
 # Informations importantes
